@@ -1,15 +1,28 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.riskyjumper.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets"  xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.riskyjumper.app" version="1.0.9" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Risky Jumper</name>
+<preference name="AndroidWindowSplashScreenBackground" value="#0195b7" />
+ <preference name="StatusBarOverlaysWebView" value="true" />
+   <preference name="StatusBarBackgroundColor" value="#00000000" />
+   <preference name="FadeSplashScreen" value="false"/>
+   <preference name="AutoHideSplashScreen" value="false" />
+   <preference name="AndroidPostSplashScreenTheme" value="@style/Theme.AppCompat.NoActionBar"/>
+    <!-- <preference name="Orientation" value="portrait" /> -->
     <description>Sample Apache Cordova App</description>
     <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
         Apache Cordova Team
     </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+      <preference name="android-clearData" value="false" />
 
-    <preference name="StatusBarBackgroundColor" value="#0195b7" />
-<preference name="SplashScreenScale" value="centerCrop" />
-    <icon src="res/icon/android/ldpi.png" density="ldpi" />
-    <splash src="res/screen/android/screenldpi.png" density="ldpi" />
-    <splash src="res/screen/android/screen-land.png" density="land-ldpi" />
-</platform>
+    <platform name="android">
+      <icon src="res/icon/android/ldpi.png" density="ldpi" />
+      <icon src="res/icon/android/mdpi.png" density="mdpi" />
+      <icon src="res/icon/android/hdpi.png" density="hdpi" />
+      <icon src="res/icon/android/xhdpi.png" density="xhdpi" />
+      <icon src="res/icon/android/xxhdpi.png" density="xxhdpi" />
+      <icon src="res/icon/android/xxxhdpi.png" density="xxxhdpi" />
+    </platform>
 </widget>
