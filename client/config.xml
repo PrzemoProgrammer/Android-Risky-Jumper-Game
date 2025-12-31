@@ -7,18 +7,9 @@
     </author>
 
     <preference name="StatusBarBackgroundColor" value="#0195b7" />
-<!-- <preference name="SplashScreenScale" value="centerCrop" /> -->
-
-<!-- 
-
-
-      <icon src="res/icon/android/ldpi.png" density="ldpi" />
-
-
-      <splash src="res/screen/android/screenldpi.png" density="ldpi" />
-
+<preference name="SplashScreenScale" value="centerCrop" />
+    <icon src="res/icon/android/ldpi.png" density="ldpi" />
+    <splash src="res/screen/android/screenldpi.png" density="ldpi" />
     <splash src="res/screen/android/screen-land.png" density="land-ldpi" />
-
-
 </platform>
 </widget>
